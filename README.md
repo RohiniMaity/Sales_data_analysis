@@ -7,7 +7,7 @@ This project performs data cleaning in **Python** and then conducts a comprehens
 
 ## 📁 Project Structure
 
-- `project.ipynb`: Jupyter Notebook with:
+- `project.py`: Python file with:
   - Data loading and cleaning in **Pandas**
   - Data export to PostgreSQL (optional)
   - Analytical SQL queries using `psycopg2` or `sqlalchemy`
@@ -15,6 +15,19 @@ This project performs data cleaning in **Python** and then conducts a comprehens
 - `README.md`: Documentation and explanation
 
 ---
+
+## Get Dataset
+
+### Setup Kaggle API
+- API Setup: Obtain your Kaggle API token from Kaggle by navigating to your profile settings and downloading the JSON file.
+- Configure Kaggle:
+   - Place the downloaded kaggle.json file in your local .kaggle folder.
+   - Use the command kaggle datasets download -d <dataset-path> to pull datasets directly into your project.
+
+### Download Walmart Sales Data
+- Data Source: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
+- Dataset Link: [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets)
+- Storage: Save the data in the data/ folder for easy reference and access.
 
 ## 🧼 Data Cleaning Steps (Python)
 
