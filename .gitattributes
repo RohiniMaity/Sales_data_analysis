@@ -1,2 +1,5 @@
-# Use linguist to classify SQL
+# Force SQL files to be detected as SQL language
 *.sql linguist-language=SQL
+
+# Optionally, mark SQL files as detectable if not picked up by default
+*.sql linguist-detectable=true
