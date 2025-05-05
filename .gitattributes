@@ -1,0 +1,2 @@
+# Use linguist to classify SQL
+*.sql linguist-language=SQL
